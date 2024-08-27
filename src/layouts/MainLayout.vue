@@ -66,7 +66,7 @@ const icons: EssentialIconProps[] = [
   {
     label: 'About',
     icon: 'help',
-    link: 'https://youtube.com',
+    link: '#home/about',
     // link: 'About',
   },
   {

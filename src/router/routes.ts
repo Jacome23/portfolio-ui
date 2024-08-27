@@ -8,7 +8,10 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/home',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/Home.vue') }],
+    children: [
+      { path: '', component: () => import('pages/Home.vue') },
+      { path: 'about', component: () => import('pages/About.vue') },
+    ],
   },
 
   // Always leave this as last one,

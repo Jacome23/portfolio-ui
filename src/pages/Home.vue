@@ -28,21 +28,21 @@
           label="github"
         />
 
-        <q-btn
+        <!-- <q-btn
           color="white"
           size="xl"
           text-color="black"
           icon="assured_workload"
           label="my works"
           @click="fullWidth = true"
-        />
+        /> -->
 
         <q-btn
           href="https://drive.google.com/file/d/1Bq24NyqJ73rIneAq3D9gNpZz5LhZ2kJ-/view?usp=sharing"
           target="”_blank”"
-          color="black"
+          color="white"
           size="xl"
-          text-color="white"
+          text-color="black"
           icon="assignment_turned_in"
           label="resume"
         />
